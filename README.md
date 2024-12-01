@@ -79,7 +79,9 @@ Open the application in your browser at:
 arduino
 Copy code
 http://localhost:3000
-Usage Instructions
+
+# Usage Instructions
+
 Librarian (Contract Owner)
 Connect your MetaMask wallet.
 Use the "Add a Book" button to:
@@ -87,7 +89,9 @@ Enter the book's name.
 Specify the number of available copies.
 Users
 Connect your MetaMask wallet.
-Use the following actions:
+
+# Use the following actions:
+
 Borrow a Book: Provide the book's name to borrow a copy.
 Return a Book: Return a book by its name.
 Check Availability: See the number of available copies for a book.
@@ -98,29 +102,32 @@ Enter:
 Book Name: The Great Gatsby
 Copies: 5
 Click OK. The book is now available for users to borrow.
-Borrowing a Book
+
+# Borrowing a Book
 A user clicks "Borrow a Book".
 Enters the book name: The Great Gatsby.
 If available, the user successfully borrows the book, and the number of copies decreases by 1.
-Returning a Book
+
+# Returning a Book
 A user clicks "Return a Book".
 Enters the book name: The Great Gatsby.
 The system increments the available copies by 1.
-Checking Availability
+
+# Checking Availability
 A user clicks "Check Book Availability".
 Enters the book name: The Great Gatsby.
 The system displays the number of available copies.
-Notes
+
+# Notes
 Only the librarian (contract owner) can add books.
 MetaMask is required for all interactions with the system.
-License
+
+# License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Troubleshooting
+# Troubleshooting
 MetaMask Not Detected: Ensure MetaMask is installed and enabled in your browser.
 Transaction Fails: Verify you are connected to the correct network and have sufficient funds for gas fees.
-markdown
-Copy code
 
 ### Instructions for Use
 - Copy the above content into a `README.md` file in the root directory of your project.
